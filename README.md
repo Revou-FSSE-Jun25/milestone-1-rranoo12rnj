@@ -39,7 +39,7 @@ The resources used in building this website are Revou Software Engineering Lectu
 
 ## Demo
 [Watch the full demo video on Google Drive] 
-([https://rahma-revou-milestone-1.netlify.app/](https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk))
+(https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk)
 
 ## Contact
 Rahma Nur Jannati - rranoo12rnj@gmail.com
