@@ -1,0 +1,15 @@
+/* colors.css file */
+
+:root {
+  --federal-blue: #03045e;
+  --honolulu-blue: #0077b6;
+  --pacific-cyan: #00b4d8;
+  --non-photo-blue: #90e0ef;
+  --light-cyan: #caf0f8;
+
+  --text-dark: #03045e;
+  --text-light: #ffffff;
+  --bg-light: #f9f9f9;
+  --accent: #0077b6;
+  --border: #ddd;
+}
