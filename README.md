@@ -22,6 +22,11 @@ The index html file is the home of the website which connects to about, projects
 
 Each page includes header which is the navigation menu and footer which is the hyperlink to other parts of the web and way's to contact Rahma.
 
+## Features Implemented
+- Responsive design using Flexbox and media queries
+- color and font css files for a uniform styling throughout the website
+- layout responsive and adaptive to any device layout
+
 ## Tools
 - HTML5
 - CSS
@@ -29,13 +34,10 @@ Each page includes header which is the navigation menu and footer which is the h
 - Google Fonts
 - Coolors (color palette picker)
 - Netlify
+- Copilot (in VS Code, to tidy up the code format)
+- ChatGPT (to ask how to deploy)
 
-The resources used in building this website are Revou Software Engineering Lecture Notes.
-
-## Features Implemented
-- Responsive design using Flexbox and media queries
-- color and font css files for a uniform styling throughout the website
-- layout responsive and adaptive to any device layout
+The resources used in building this website are Revou Software Engineering Lecture Notes and lecture recording. Author also asked her friend in computer science major on how to use Git, GitHub, how to deploy the website, and how to write a neat and consise CSS code. This is because there is an urgency from author's perspective in understanding how to use the tools which is done after reviewing Revou lecture materials. This action done in a format of QnA sessions and not intended to replace author's responsibility.
 
 ## Demo
 [Watch the full demo video on Google Drive] 
