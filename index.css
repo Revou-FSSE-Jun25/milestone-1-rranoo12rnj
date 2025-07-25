@@ -3,7 +3,6 @@
 @import url('./styles/colors.css');
 @import url('./styles/fonts.css');
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,7 @@ body {
   padding: 1rem;
 }
 
-/* Layout */
+/* layout dimension */
 .site-header,
 .site-footer {
   background-color: var(--honolulu-blue);
@@ -55,7 +54,7 @@ body {
   padding: 2rem 1rem;
 }
 
-/* Sections */
+/* sections */
 .intro-section,
 .about-section,
 .form-section,
@@ -66,7 +65,7 @@ body {
   border-radius: 8px;
 }
 
-/* Profile Image */
+/* profile image */
 .profile-img {
   max-width: 100%;
   height: auto;
@@ -75,7 +74,7 @@ body {
   margin: 0 auto 1rem;
 }
 
-/* Contact Form */
+/* form */
 form {
   display: flex;
   flex-direction: column;
@@ -105,7 +104,7 @@ input[type="submit"]:hover {
   background-color: var(--honolulu-blue);
 }
 
-/* Footer */
+/* footer styling */
 .site-footer {
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +132,7 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* responsivity */
 @media (max-width: 768px) {
   .site-header nav ul {
     flex-direction: column;
