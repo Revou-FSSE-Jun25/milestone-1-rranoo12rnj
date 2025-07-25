@@ -3,6 +3,10 @@
 ## About the Project
 This website is intended to be Rahma Nur Jannati's personal website to showcase her eduation background, projects, and interests.
 
+## Website
+[https://rahma-revou-milestone-1.netlify.app/] 
+Project link: https://github.com/Revou-FSSE-Jun25/milestone-1-rranoo12rnj
+
 ## Contents
 ```
 --README.md
@@ -17,14 +21,23 @@ The index html file is the home of the website which connects to about, projects
 
 Each page includes header which is the navigation menu and footer which is the hyperlink to other parts of the web and way's to contact Rahma.
 
-(The header is intended to stay when scrolled which will be styles ater we implement CSS to the project.)
-
 ## Tools
-At the moment, the project is only built by html. Meanwhile the completed project is expected to be a responsive and complete with CSS styling.
+- HTML5
+- CSS
+- Git and GitHub
+- Google Fonts
+- Coolors (color palette picker)
+- Netlify
 
 The resources used in building this website are Revou Software Engineering Lecture Notes.
 
+## Features Implemented
+- Responsive design using Flexbox and media queries
+- color and font css files for a uniform styling throughout the website
+- layout responsive and adaptive to any device layout
+
+## Demo
+[Watch the full demo video on Google Drive] ([https://rahma-revou-milestone-1.netlify.app/](https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk))
+
 ## Contact
 Rahma Nur Jannati - rranoo12rnj@gmail.com
-
-Project Link: https://github.com/Revou-FSSE-Jun25/milestone-1-rranoo12rnj
