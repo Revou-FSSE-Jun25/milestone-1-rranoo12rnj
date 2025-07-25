@@ -5,6 +5,7 @@ This website is intended to be Rahma Nur Jannati's personal website to showcase 
 
 ## Website
 [https://rahma-revou-milestone-1.netlify.app/] 
+
 Project link: https://github.com/Revou-FSSE-Jun25/milestone-1-rranoo12rnj
 
 ## Contents
@@ -37,7 +38,8 @@ The resources used in building this website are Revou Software Engineering Lectu
 - layout responsive and adaptive to any device layout
 
 ## Demo
-[Watch the full demo video on Google Drive] ([https://rahma-revou-milestone-1.netlify.app/](https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk))
+[Watch the full demo video on Google Drive] 
+([https://rahma-revou-milestone-1.netlify.app/](https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk))
 
 ## Contact
 Rahma Nur Jannati - rranoo12rnj@gmail.com
