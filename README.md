@@ -28,7 +28,7 @@ Project link: https://github.com/Revou-FSSE-Jun25/milestone-1-rranoo12rnj
 
 The index html file is the home of the website which connects to about, projects, and contact page using navigation option. The about page contains Rahma's education background, experiences, skills, and interests. The project page contains her future projects while the contact page is a page where user can send email to her .
 
-Each page includes header which is the navigation menu and footer which is the hyperlink to other parts of the web and way's to contact Rahma.
+Each page includes header which is the navigation menu and footer which is the hyperlink to other parts of the web and way's to contact Rahma .
 
 ## Features Implemented
 
