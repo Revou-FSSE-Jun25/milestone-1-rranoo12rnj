@@ -43,6 +43,7 @@ Each page includes header which is the navigation menu and footer which is the h
 - Netlify
 - Copilot (in VS Code, to tidy up the code format)
 - ChatGPT (to ask how to deploy)
+- uiverse.io
 
 The resources used in building this website are Revou Software Engineering Lecture Notes and lecture recording. Author also asked her friend in computer science major on how to use Git, GitHub, how to deploy the website, and how to write a neat and consise CSS code. This is because there is an urgency from author's perspective in understanding how to use the tools which is done after reviewing Revou lecture materials. This action done in a format of QnA sessions and not intended to replace author's responsibility.
 
