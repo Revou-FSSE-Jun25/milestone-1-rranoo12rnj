@@ -10,21 +10,46 @@
     </head>
     <body>
         <header class="site-header">
-            <p><b>Get to know</b></p>
-            <h1><a href="../index.html">Rahma Nur Jannati</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="intro">
+                <nav class="intro-nav">
+                    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+                    <ul class="nav-menu">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
+        <a href="../index.html" class="go-home">🏠︎</a>
+
         <main class="main-content">
-            <article>
-                <h3>Coming soon</h3>
-            </article>
+            <h1>Rahma's Projects</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="project-pic">
+                        <img class="project-pic" src="../images/footer-img.jpeg" alt="project picture" width="150px"/>
+                    </div>
+                    <h2>future Project 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card">
+                    <div class="project-pic">
+                        <img class="project-pic" src="../images/footer-img2.jpeg" alt="project picture" width="150px"/>
+                    </div>
+                    <h2>future Project 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card">
+
+                    <div class="project-pic">
+                        <img class="project-pic" src="../images/background-pic1.jpeg" alt="project picture" width="150px"/>
+                    </div>
+                    <h2>future Project 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
         </main>
 
         <footer class="site-footer">
@@ -52,5 +77,11 @@
                 <p>© Rahma Nur Jannati 2025</p>
             </div>
         </footer>
+        <button class="go-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+        <script>
+            function toggleMenu() {
+                document.querySelector(".nav-menu").classList.toggle("show");
+            }
+        </script>
     </body>
 </html>

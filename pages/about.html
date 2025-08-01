@@ -10,18 +10,22 @@
     </head>
     <body>
         <header class="site-header">
-            <p><b>Get to know</b></p>
-            <h1><a href="../index.html">Rahma Nur Jannati</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="intro">
+                <nav class="intro-nav">
+                    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+                    <ul class="nav-menu">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
+        <a href="../index.html" class="go-home">🏠︎</a>
+
         <main class="main-content">
+            <h1>About Rahma</h1>
             <article class="about-section">
                 <h2>Who am I?</h2>
                 <hr>
@@ -83,5 +87,11 @@
                 <p>© Rahma Nur Jannati 2025</p>
             </div>
         </footer>
+        <button class="go-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+        <script>
+            function toggleMenu() {
+                document.querySelector(".nav-menu").classList.toggle("show");
+            }
+        </script>
     </body>
 </html>
