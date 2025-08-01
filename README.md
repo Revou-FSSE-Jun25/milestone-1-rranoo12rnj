@@ -20,9 +20,6 @@ Project link: https://github.com/Revou-FSSE-Jun25/milestone-1-rranoo12rnj
  '--about.html
  '--projects.html
  '--contact.html
---styles
- '--fonts.css
- '--colors.css
 --images
 ```
 
@@ -51,8 +48,12 @@ The resources used in building this website are Revou Software Engineering Lectu
 
 ## Demo
 
-[Watch the full demo video on Google Drive]
-(https://drive.google.com/file/d/1blgUI_gmgEmVzjLzqLTtyCnbVqco-DTb/view?usp=drivesdk)
+### Home Page
+<img width="1893" height="930" alt="image" src="https://github.com/user-attachments/assets/515e6321-f3a7-4693-9ede-9bfd9fd8ebca" />
+
+### About Page
+<img width="1880" height="925" alt="image" src="https://github.com/user-attachments/assets/7553cde2-d4e8-470f-8dea-8b394e996983" />
+
 
 ## Contact
 
