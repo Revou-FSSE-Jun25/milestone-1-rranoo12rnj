@@ -20,36 +20,47 @@
                     </ul>
                 </nav>
             </div>
+            <div class="intro">
+                <nav class="intro-nav">
+                    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+                    <ul class="nav-menu">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
+        <a href="../index.html" class="go-home">🏠︎</a>
 
         <a href="../index.html" class="go-home">🏠︎</a>
 
         <main class="main-content">
             <h1>Rahma's Projects</h1>
             <div class="container">
-                <div class="card">
-                    <div class="project-pic">
-                        <img class="project-pic" src="../images/footer-img.jpeg" alt="project picture" width="150px"/>
+                    <div class="image-container">
+                        <img class="project-pic" src="../images/footer-img.webp" alt="project picture"/>
+                        <div class="overlay-text">
+                            <h2>Future Project 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
                     </div>
-                    <h2>future Project 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="card">
-                    <div class="project-pic">
-                        <img class="project-pic" src="../images/footer-img2.jpeg" alt="project picture" width="150px"/>
+                    <div class="image-container">
+                        <img class="project-pic" src="../images/footer-img2.webp" alt="project picture"/>
+                        <div class="overlay-text">
+                            <h2>Future Project 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
                     </div>
-                    <h2>future Project 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="card">
-
-                    <div class="project-pic">
-                        <img class="project-pic" src="../images/background-pic1.jpeg" alt="project picture" width="150px"/>
+                    <div class="image-container">
+                        <img class="project-pic" src="../images/background-pic1.webp" alt="project picture"/>
+                        <div class="overlay-text">
+                            <h2>Future Project 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
                     </div>
-                    <h2>future Project 3</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-            </div>
         </main>
 
         <footer class="site-footer">
@@ -77,6 +88,12 @@
                 <p>© Rahma Nur Jannati 2025</p>
             </div>
         </footer>
+        <button class="go-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+        <script>
+            function toggleMenu() {
+                document.querySelector(".nav-menu").classList.toggle("show");
+            }
+        </script>
         <button class="go-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
         <script>
             function toggleMenu() {
